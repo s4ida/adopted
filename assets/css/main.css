@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #BC5148;
+  flex-direction: c;
+}
+header .container {
+  width: 90%;
+}
+header .container .icondiv2 {
+  display: flex;
+  gap: 20px;
+}
+header .container .buttondiv {
+  display: flex;
+  gap: 20px;
+}
+header .container .buttondiv button {
+  width: 90px;
+  justify-content: center;
+  align-items: center;
+  background-color: #BC5148;
+  border: none;
+}
+header .container .buttondiv .loginbtn {
+  background-color: #da9d11;
+  border: none;
+  height: 50px;
+}
+
+.navdiv {
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+.navdiv .logo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  margin-left: 30px;
+}
+.navdiv .collapseDiv {
+  justify-content: flex-end;
+}
+.navdiv .collapseDiv ul li a {
+  font-size: 20px;
+}
+
+main #entrancesection {
+  background-image: url(/assets/img/slider-2.jpg);
+  background-size: cover;
+  width: 100%;
+  padding: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main #entrancesection .container {
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main #entrancesection .container .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+main #entrancesection .container .row .textdiv {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+main #entrancesection .container .row .textdiv h3 {
+  font-size: 50px;
+  color: white;
+}
+main #entrancesection .container .row .textdiv h1 {
+  font-size: 50px;
+  color: white;
+}
+main #entrancesection .container .row .textdiv p {
+  width: 40%;
+  color: white;
+}
+main #entrancesection .container .row .textdiv button {
+  background-color: #BC5148;
+  color: white;
+  height: 60px;
+  padding: 10px 10px 10x 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+}
+main #entrancesection .container .row .textdiv button:hover {
+  background-color: #bd665e;
+}
+main #aboutsection {
+  padding: 30px;
+}
+main #aboutsection .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+main #aboutsection .container .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+main #aboutsection .container .row .adoptdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main #aboutsection .container .row .adoptdiv img {
+  width: 100%;
+  height: 80%;
+}
+main #aboutsection .container .row .adoptdiv button {
+  border: 1px solid #bc5148;
+  width: 200px;
+  height: 60px;
+  background-color: white;
+  color: #BC5148;
+  font-size: 20px;
+  border-radius: 5px;
+}
+main #aboutsection .container .row .adoptdiv button:hover {
+  background-color: #BC5148;
+  transition: 0.5s;
+  color: white;
+}
+main #aboutsection .accordiondiv {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+main #aboutsection .accordiondiv h1 {
+  margin-bottom: 30px;
+  width: 100%;
+}
+main #waiting .container .row .waitingchildren {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+main #waiting .container .row .waitingchildren p {
+  width: 60%;
+  color: gray;
+}
+main #waiting .container .row .waitingchildren button {
+  border-radius: 5px;
+  background-color: #BC5148;
+  color: white;
+  font-size: 20px;
+  border: none;
+  height: 40px;
+  padding: 10px 10px 10px 10px;
+}

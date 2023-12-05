@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #BC5148;
+flex-direction: c;
+    .container{
+        width: 90%;
+   
+        .icondiv2{
+       display: flex;
+       gap: 20px;
+      
+        }
+        .buttondiv{
+            display: flex;
+            gap:20px;
+   
+            button{
+                width: 90px;
+                                justify-content: center;
+                align-items: center;
+                background-color: #BC5148;
+                border: none;
+            }
+            .loginbtn{
+                background-color:#da9d11;
+                border: none;
+            height: 50px;
+            }
+           
+        }
+        
+      
+    }
+}
+.navdiv{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    .logo{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+   font-size: 30px;
+       margin-left: 30px;
+    }
+    .collapseDiv{
+        justify-content: flex-end;
+        ul{
+            li{
+                a{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+main{
+    #entrancesection{
+        background-image: url(/assets/img/slider-2.jpg);
+        background-size:cover;
+    width: 100%;
+        padding: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+            .container{
+                padding: 30px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+        .row{
+            margin-top: 30px;
+            margin-bottom: 30px;
+        padding: 30px;
+            .textdiv{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                padding: 30px;
+                h3{
+                  font-size: 50px;
+                  color: $main-color;
+               }
+                h1{
+font-size: 50px;
+color: $main-color;
+                }
+                p{
+                    width: 40%;
+                    color: $main-color;
+                }
+                button{
+                    background-color: #BC5148;
+                    color: $main-color;
+                    height: 60px;
+    padding: 10px 10px 10x 10px;
+                   border-radius: 5px;
+                    border: none;
+                    font-size: 20px;
+                }
+                button:hover{
+                    background-color: #bd665e;
+                }
+            }
+        }
+            }
+        
+        }
+
+#aboutsection{
+    padding: 30px;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        .row{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 30px;
+            .adoptdiv{
+         
+
+display: flex;
+flex-direction: column;
+gap: 30px;
+img{
+    width: 100%;
+    height: 80%;
+}
+button{
+    border: 1px solid #bc5148;
+    width: 200px;
+    height: 60px;
+    background-color: $main-color;
+    color: #BC5148;
+    font-size: 20px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #BC5148;
+    transition: 0.5s;
+    color: $main-color;
+}
+
+            }
+        }
+    }
+
+    .accordiondiv{
+        h1{
+            margin-bottom: 30px;
+            width: 100%;
+          }
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 30px;
+
+    }
+}
+
+
+#waiting{
+    .container{
+        .row{
+            .waitingchildren{
+           
+                display: flex;
+                flex-direction: column;
+            align-items: center;
+            gap: 20px;
+                p{
+                    width: 60%;
+                    color: gray;
+                }
+    
+                button{
+                    border-radius: 5px;
+                    background-color: #BC5148;
+                    color: $main-color;
+                    font-size: 20px;
+                    border: none;
+                    height: 40px;
+                    padding: 10px 10px 10px 10px;
+                }
+                
+            }
+            
+            }
+        }
+      
+    }
+ 
+}
+
